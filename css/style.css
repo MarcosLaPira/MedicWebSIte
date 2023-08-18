@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  margin: 0vh;
+  padding: 0vh;
+}
+
+header nav {
+  background-color: rgba(30, 145, 176, 0.999);
+  color: white;
+  font-size: 2vh;
+  padding: 3vh;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0vh;
+  justify-content: flex-end;
+}
+header nav ul .logo {
+  margin-right: auto;
+}
+header nav ul li {
+  margin-right: 5vh;
+}
+header nav ul li:hover {
+  background-color: white;
+  color: rgba(30, 145, 176, 0.999);
+}
+header .presentation-content {
+  display: flex;
+  height: 20vh;
+  padding: 30vh;
+  background-image: url("/imagenes/medicoRiendo.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  justify-content: center;
+  align-items: flex-start;
+}
+header .presentation-content .description-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 60vh;
+}
+header .presentation-content .description-presentation p {
+  padding: 3vh;
+  text-align: center;
+}
+header .presentation-content .description-presentation .button-contact {
+  padding: 1vh;
+  border-radius: 30vh;
+  border-color: rgba(30, 145, 176, 0.999);
+}
+
+main {
+  text-align: center;
+  margin: 4vh 0vh;
+}
+main .main-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+main .main-contenido .video {
+  width: 40vh;
+  height: 40vh;
+  margin-right: 5vh;
+  background-color: lightgray; /* Cambia este color al que desees */
+}
+main .main-contenido .video iframe {
+  width: 100%;
+  height: 100%;
+}
+main .main-contenido .presentacion-video {
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5vh;
+}
+main .main-contenido .presentacion-video h3, main .main-contenido .presentacion-video p {
+  margin: 1vh; /* Ajusta el margen superior e inferior según lo necesites */
+}
+main .services-content {
+  margin: 0vh;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4vh 20vh 0vh;
+}
+main .services-content h3 {
+  margin: 3vh;
+}
+main .services-content .services-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+main .services-content .services-icons .icon {
+  margin: 6vh;
+  background-color: white;
+}
+main .services-content .services-icons .icon h4 {
+  margin: 1vh;
+}
+main .services-content .services-icons .icon img {
+  width: 7vh; /* Ajusta el porcentaje deseado */
+  height: 7vh; /* Ajusta el porcentaje deseado */
+}
+main .contact-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4vh 20vh 0vh;
+}
+main .contact-content p {
+  margin: 1.5vh;
+}
+main .contact-content .form-group {
+  margin-bottom: 1.5vh; /* Ajusta el espaciado entre los campos del formulario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+main .contact-content .form-group input {
+  width: 30vh;
+}
+main .contact-content .form-group textarea {
+  width: 50vh;
+  height: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */
